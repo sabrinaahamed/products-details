@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#service{
+                
+    padding: 10px;
+}
+
+#service h1{
+    color: rgb(14, 14, 88);
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+#service .container{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+#service .container .child{
+    width: 22%;
+    background-color: #F6F7FB;
+    border-radius: 10px;
+    transition: .4s;
+
+}
+
+#service .container .child .icon{
+    display: flex;
+    column-gap: 20px;
+    padding: 10px 0 10px 10px;
+    color: blue;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#service .container .child:hover .icon{
+    opacity: 1;
+    visibility: visible;
+}
+
+#service .container .child .icon .i1{
+    color: blueviolet;
+}
+
+
+
+#service .container .child img{
+    width: 100%;
+    height: 250px
+}
+
+
+#service .container .child button{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background-color: green;
+    color: white;
+    margin: 20px 100px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#service .container .child:hover button{
+    opacity: 1;
+    visibility: visible;
+}
+
+#service .container .child .part{
+    background-color: #ffff;
+    padding: 10px 0;
+}      
+
+#service .container .child:hover .part{
+    background-color: #3F00BF;
+
+}
+
+
+#service .container .child .part h3{
+    color: #FF4A94;
+    text-align: center;
+}
+
+#service .container .child:hover .part h3{
+    color: #ffff;
+}
+
+#service .container .child .part .symbol {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+#service .container .child .part .symbol .s1 i{
+    color: cyan;
+    font-size: 25px;
+}
+
+#service .container .child .part .symbol .s2 i{
+    color: blue;
+    font-size: 25px;
+
+}
+
+#service .container .child .part p{
+    color: blue;
+    text-align: center;
+}
+
+#service .container .child:hover .part p{
+    color: #ffff;
+
+}
+
